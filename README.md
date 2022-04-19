@@ -63,7 +63,7 @@ Cette procédure se duplique selon le nombre d’arduino à utiliser, dans le ca
 Il faudra toujours utiliser un seul MASTER, et autant de SLAVE que nécessaire pour obtenir un nombre d’entrées suffisantes.
 
 
-## Format des données :
+### Format des données :
 Dans le projet en plus de “communication.ino”, deux fichiers de classes “Master.h” et
 “Slave.h” cohabitent, ils correspondent au code du mode “Master” et du mode “Slave”.
 — Slave.h
@@ -87,7 +87,7 @@ Le premier “Slave” envoie ses données au deuxième “Slave”, et le deuxi
 Le Master doit être connecté par USB à l’ordinateur, il ne doit écrire que le tableau de données discuté plus haut sur le serial.
 
 
-### Viewer :
+## Viewer :
 Le programme Viewer, écrit en Processing, lit le port Serial de l’ordinateur où le “Master” écrit. Dans le cas ou la taille de grille changerait il faudra adapter deux variables :
 int grid_width = 4;
 int grid_height = 4;
