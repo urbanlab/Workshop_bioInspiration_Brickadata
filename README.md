@@ -1,5 +1,6 @@
 # Workshop_bioInspiration_Brickadata
 
+Code développé par Anthony Couret durant le workshop bio-inspiré organisé par Erasme. 
 
 Le code source du projet est découpé en deux modules principaux :
 — Communication : code Arduino, pour la détection des briques posées sur le plateau.
